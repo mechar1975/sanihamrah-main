@@ -1,0 +1,10 @@
+@extends('layouts.default')
+@section('infoheader')
+@stop
+@section('content')
+@include('includes.about.slider')
+@include('includes.about.about')
+@include('includes.about.services')
+@stop
+@section('includescripts')
+@stop

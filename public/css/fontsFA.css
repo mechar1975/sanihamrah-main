@@ -1,0 +1,116 @@
+/* Fonts - Find/Replace your website fonts with your custom font name.*/
+@font-face {
+	font-family: "yekan";
+	src: url("../webfonts/yekan-regular.woff");
+}
+body {
+	font-size: 1em;
+	font-family: "yekan" !important;
+}
+
+/*Paragraphs*/
+p {
+	font-family: "yekan" !important;
+}
+
+/*Headings*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+	font-family: "yekan" !important;
+}
+
+/*Main Menu*/
+#mainMenu nav>ul>li>a {
+	font-family: "yekan" !important;
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 0.6px;
+}
+
+#mainMenu nav>ul>li .dropdown-menu>li>a,
+#mainMenu nav>ul>li .dropdown-menu>li>span,
+#mainMenu nav>ul>li .dropdown-menu>li [class*="col-"]>ul>li>a {
+	font-family: "yekan" !important;
+}
+
+#mainMenu nav>ul>li.mega-menu-item .mega-menu-content .mega-menu-title {
+	font-family: "yekan" !important;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.header-extras>ul>li>a:not(.btn),
+.header-extras>ul>li .topbar-dropdown>.title {
+	font-family: "yekan" !important;
+	font-size: 12px;
+	font-weight: 700;
+}
+
+/*Page Menu*/
+.page-menu nav>ul>li {
+	font-family: "yekan" !important;
+}
+
+.page-menu nav>ul>li .dropdown-menu {
+	font-family: "yekan" !important;
+}
+
+/*Sidebar Menu*/
+.sidebar-menu {
+	font-family: "yekan" !important;
+}
+
+/*Buttons*/
+button,
+a.btn:not([href]):not([tabindex]),
+.btn {
+	font-family: "yekan" !important;
+}
+
+/*slider*/
+.inspiro-slider .slide .slide-captions .strong {
+	font-family: "yekan" !important;
+}
+
+/*Page Title*/
+#page-title .page-title>h1 {
+	font-family: "yekan" !important;
+	font-size: 44px;
+	line-height: 56px;
+	font-weight: 400;
+}
+
+/*Footer*/
+#footer {
+	font-size: 14px;
+	font-weight: 400;
+	font-family: "yekan" !important;
+}
+
+#footer p {
+	font-family: "yekan" !important;
+}
+
+#footer .widget .widget-title,
+#footer .widget h4 {
+	font-family: "yekan" !important;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+
+#footer .widget .widget-title ul li a,
+#footer .widget h4 ul li a {
+	font-family: "yekan" !important;
+	font-size: 15px;
+}
